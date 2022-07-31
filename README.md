@@ -1,24 +1,29 @@
 # new-computer-setup
+
 setting up a new machine
 
-## Terminal
+## terminal
 
 - [Dimmed Monokai](files/DimmedMonokai.terminal)
 - `brew install exa`
-- bash profile
+
+#### zsh
+
 ```
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
+# ~/.zshrc
 alias ls="exa -bghl"
+PROMPT='%F{red}%n%f:~$ '
 ```
 
-## Keyboard
+- `touch ~/.hushlogin`
+
+## keyboard
 
 - install [Karabiner](https://pqrs.org/osx/karabiner/)
-- [mapping](files/karabiner-config.json)
+- [mapping](files/karabiner.json)
+- system preferences -> keyboard -> press X to do `Nothing`
 
-## VS Code
+## vs code
 
 - theme: [Atom One Dark](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
 - extensions:
