@@ -12,7 +12,7 @@ setting up a new machine
 ```
 # ~/.zshrc
 alias ls="exa -bghl"
-PROMPT='%F{red}%n%f:~$ '
+PROMPT='%F{red}%n%f %~ :$ '
 ```
 
 - `touch ~/.hushlogin`
