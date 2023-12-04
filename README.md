@@ -23,6 +23,11 @@ PROMPT='%F{red}%n%f %~ :$ '
 - [mapping](files/karabiner.json)
 - system preferences -> keyboard -> press X to do `Nothing`
 
+## window management
+
+- download [rectangle](https://rectangleapp.com/)
+- [config](files/RectangleConfig.json)
+
 ## vs code
 
 - theme: [Atom One Dark](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
