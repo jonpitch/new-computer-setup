@@ -34,3 +34,7 @@ PROMPT='%F{red}%n%f %~ :$ '
 - extensions:
     - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
     - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+
+## dygma
+
+- restore [backup](files/20231201093839-.json)
