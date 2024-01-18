@@ -22,6 +22,7 @@ PROMPT='%F{red}%n%f %~ :$ '
 - install [Karabiner](https://pqrs.org/osx/karabiner/)
 - [mapping](files/karabiner.json)
 - system preferences -> keyboard -> press X to do `Nothing`
+- system preferences -> keyboard -> keyboard shortcuts -> services -> searching -> uncheck `look up in dictionary`
 
 ## window management
 
@@ -34,7 +35,8 @@ PROMPT='%F{red}%n%f %~ :$ '
 - extensions:
     - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
     - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- change `go to definition` key binding from `F12` to `cmd+shift+d`
 
 ## dygma
 
-- restore [backup](files/20231201093839-.json)
+- if needed, restore [backup](files/20231201093839-.json)
