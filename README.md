@@ -24,6 +24,10 @@ PROMPT='%F{red}%n%f %~ :$ '
 - system preferences -> keyboard -> press X to do `Nothing`
 - system preferences -> keyboard -> keyboard shortcuts -> services -> searching -> uncheck `look up in dictionary`
 
+## mac trackpad
+
+- system preferences -> trackpad -> look up & data detectors -> `off`
+
 ## window management
 
 - download [rectangle](https://rectangleapp.com/)
