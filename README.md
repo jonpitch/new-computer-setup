@@ -5,17 +5,20 @@ setting up a new machine
 ## terminal
 
 - [Dimmed Monokai](files/DimmedMonokai.terminal)
-- `brew install exa`
+- `brew install eza`
 
-#### zsh
+#### zsh / .zshrc
 
-```
-# ~/.zshrc
-alias ls="exa -bghl"
-PROMPT='%F{red}%n%f %~ :$ '
-```
-
+zsh
 - `touch ~/.hushlogin`
+
+.zshrc
+```
+nano ~/.zshrc
+
+# add
+alias ls='eza'
+```
 
 ## keyboard
 
@@ -23,6 +26,15 @@ PROMPT='%F{red}%n%f %~ :$ '
 - [mapping](files/karabiner.json)
 - system preferences -> keyboard -> press X to do `Nothing`
 - system preferences -> keyboard -> keyboard shortcuts -> services -> searching -> uncheck `look up in dictionary`
+
+## git config
+
+```bash
+git config --global user.name "your name"
+git config --global user.email "your email"
+git config --global pull.rebase false
+git config --global core.editor "nano"
+```
 
 ## mac trackpad
 
@@ -36,9 +48,6 @@ PROMPT='%F{red}%n%f %~ :$ '
 ## vs code
 
 - theme: [Atom One Dark](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
-- extensions:
-    - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-    - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - change `go to definition` key binding from `F12` to `cmd+shift+d`
 
 ## dygma
