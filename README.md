@@ -18,6 +18,7 @@ nano ~/.zshrc
 
 # add
 alias ls='eza'
+PS1="%{$(tput setaf 196)%}%n%{$(tput setaf 245)%}@%{$(tput setaf 249)%}%m %{$(tput setaf 131)%}%1~ %{$(tput sgr0)%}$ "
 ```
 
 ## keyboard
